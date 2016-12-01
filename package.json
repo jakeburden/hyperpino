@@ -4,7 +4,7 @@
   "description": "pino logger that streams to a hypercore feed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "log": "hyperpipe test1.db"
   },
   "keywords": [
     "pino",
@@ -19,7 +19,10 @@
     "hyperdiscovery": "^1.0.1",
     "pino": "^3.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "hyperpipe": "^1.1.1",
+    "level": "^1.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jekrb/hyperpino.git"
