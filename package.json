@@ -1,0 +1,21 @@
+{
+  "name": "hyperpino",
+  "version": "1.0.0",
+  "description": "pino logger that streams to a hypercore feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pino",
+    "hypercore",
+    "streams",
+    "log"
+  ],
+  "author": "Jacob Burden <Jacob.JW.Burden@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hypercore": "^4.15.0",
+    "pino": "^3.0.2"
+  }
+}
