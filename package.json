@@ -1,6 +1,6 @@
 {
   "name": "hyperpino",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "pino logger that streams to a hypercore feed",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,16 @@
   "license": "MIT",
   "dependencies": {
     "hypercore": "^4.15.0",
+    "hyperdiscovery": "^1.0.1",
     "pino": "^3.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekrb/hyperpino.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jekrb/hyperpino/issues"
+  },
+  "homepage": "https://github.com/jekrb/hyperpino#readme"
 }
